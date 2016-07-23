@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Banking Form Exercise</title>
+  <link rel="stylesheet" type="text/css" href="validation.css">
+</head>
+<body>
+<h1>Bank Form</h1>
+<h3>Please fill out the information below</h3>
+<br/>
+<form>
+  First Name:<br>
+  <input type="text" name="firstname"><br>
+  Middle Initial:<br>
+  <input type="text" name="middleinitial"><br>
+  Last Name:<br>
+  <input type="text" name="lastname"><br>
+  Street Address:<br>
+  <input type="text" name="streetaddress"><br>
+  City:<br>
+  <input type="text" name="city"><br>
+  State:<br>
+  <input type="text" name="state"><br>
+  Zip Code:<br>
+  <input type="text" name="zipcode"><br>
+  Occupation:<br>
+  <input type="text" name="occupation"><br>
+  Employer:<br>
+  <input type="text" name="employer"><br>
+  Employer Street Address:<br>
+  <input type="text" name="employerstreetaddress"><br>
+  Employer City:<br>
+  <input type="text" name="employercity"><br>
+  Employer State:<br>
+  <input type="text" name="employerstate"><br>
+  Employer Zip Code:<br>
+  <input type="text" name="employerzipcode"><br>
+  <br/>
+  Type of Loan Requested (select one):
+  <select name="loantype">
+	  <option value="blank"></option>
+	  <option value="commercial">Commercial</option>
+	  <option value="realestate">Real Estate</option>
+	  <option value="personal">Personal</option>
+	  <option value="mortgage">Mortgage</option>
+  </select>
+  <br/>
+  <br/>
+  Loan Amount Requested:<br>
+  <input type="text" name="loanamountrequested"><br>
+  <br/>
+  Loan Term Requested:<br>
+  <input type="radio" name="loanterm" value="5years" checked> 5 years<br>
+  <input type="radio" name="loanterm" value="15years"> 15 years<br>
+  <input type="radio" name="loanterm" value="30years"> 30 years<br>
+  <br/>
+  Select the following that applies to you:<br>
+  <input type="checkbox" name="chk_group" value="downpayment" />I have a downpayment<br>
+  <input type="checkbox" name="chk_group" value="outofstate" />I am an out-of-state resident<br>
+  <input type="checkbox" name="chk_group" value="married" />I am married<br>
+  <input type="checkbox" name="chk_group" value="cosign" />I will have a co-signer<br>
+  <br/>
+  Additional Comments:<br>
+  <textarea name="message" rows="20" cols="100">
+  </textarea><br>
+  <br/>
+  Applicant Email:<br>
+  <input type="email" name="email" class="emailvalidate" required><br>
+  Applicant Phone No.:<br>
+  <input type="text" name="phonenumber"><br>
+  Applicant LinkedIn URL:<br>
+  <input type="url" name="linkedin" class="urlvalidate" required><br>
+</form>
+</body>
+</html>

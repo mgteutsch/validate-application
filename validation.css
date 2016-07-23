@@ -1,0 +1,16 @@
+input.emailvalidate:valid {
+	background-color: lightgreen;
+}
+
+input.emailvalidate:invalid {
+	background-color: #FF6347;
+}
+
+
+input.urlvalidate:valid {
+	background-color: lightgreen;
+}
+
+input.urlvalidate:invalid {
+	background-color: #FF6347;
+}
